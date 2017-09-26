@@ -1,5 +1,6 @@
 <!-- Latest compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
 <!-- fontawesome-alternative for glyphicons -->
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
@@ -37,10 +38,10 @@ body {
 
 <%
 	boolean LOGGED_IN_USER = true;
-	String name = "Janani";
+	String name = "Dilip";
 %>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-	<a class="navbar-brand" href="#">Online Book App</a>
+	<a class="navbar-brand" href="#">Online Book Store</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarsExampleDefault"
 		aria-controls="navbarsExampleDefault" aria-expanded="false"
@@ -64,14 +65,15 @@ body {
 						class="dropdown-item" href="#adduser">Add User</a>
 					<!-- <a class="dropdown-item" href="#myprofile">My Profile</a> -->
 				</div></li>
+			
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="" id="dropdown01"
 				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
 				<div class="dropdown-menu" aria-labelledby="dropdown01">
-					<a class="dropdown-item"
-						href="<%=request.getContextPath()%>/ListBookServlet">List
-						Books</a> <a class="dropdown-item" href="addbook.jsp">Add Book</a>
+					<a class="dropdown-item" href="<%=request.getContextPath()%>/ListBookServlet">List Books</a> 
+					<a class="dropdown-item" href="addbook.jsp">Add Book</a>
 				</div></li>
+			
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="#orders" id="dropdown01"
 				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>

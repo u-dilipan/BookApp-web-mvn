@@ -10,7 +10,7 @@
 
 	<jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
-		<h3>Welcome To Online Book App</h3>
+		<h3><center>Welcome To Online Book Store</center></h3>
 	</div>
 
 </body>

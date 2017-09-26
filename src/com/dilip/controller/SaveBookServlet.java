@@ -13,9 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import com.dilip.dao.BookDAO;
 import com.dilip.model.Book;
 
-/**
- * Servlet implementation class SaveBookServlet
- */
 @WebServlet("/SaveBookServlet")
 public class SaveBookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

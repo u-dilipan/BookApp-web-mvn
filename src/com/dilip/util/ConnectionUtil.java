@@ -8,12 +8,11 @@ public class ConnectionUtil {
 		Connection connection = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookapp_db", "root", "password");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookapp_db", "root", "dilipan");
 			System.out.println(connection);
 
 		} catch (Exception e) {
 			throw new Exception(e);
-
 		}
 		return connection;
 	}
